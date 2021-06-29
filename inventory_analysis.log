@@ -1,0 +1,116 @@
+2021-06-11 12:43:51,452:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-11 12:45:05,422:DEBUG:Product columns: ['Product Name', '  Unit pack size']
+2021-06-11 12:45:05,422:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-11 12:45:05,422:INFO:Inventoy rates object instantiated
+2021-06-11 12:45:06,098:INFO:Inventoy rates calculated
+2021-06-11 12:45:13,778:INFO:Report created
+2021-06-11 14:42:20,644:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-11 14:43:12,876:DEBUG:Product columns: ['Product Name', '  Unit pack size']
+2021-06-11 14:43:12,876:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-11 14:43:12,876:INFO:Inventoy rates object instantiated
+2021-06-11 14:43:13,583:INFO:Inventoy rates calculated
+2021-06-11 14:44:45,097:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-11 14:45:11,142:DEBUG:Product columns: ['Product Name']
+2021-06-11 14:45:11,143:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-11 14:45:11,143:INFO:Inventoy rates object instantiated
+2021-06-11 14:45:11,776:INFO:Inventoy rates calculated
+2021-06-11 14:47:23,589:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-11 14:48:21,866:DEBUG:Product columns: ['Product Name']
+2021-06-11 14:48:21,866:DEBUG:Facility columns: ['Facility']
+2021-06-11 14:48:21,866:INFO:Inventoy rates object instantiated
+2021-06-11 14:48:22,418:INFO:Inventoy rates calculated
+2021-06-11 14:53:46,363:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-11 14:54:47,259:DEBUG:Product columns: ['Product Name']
+2021-06-11 14:54:47,259:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-11 14:54:47,259:INFO:Inventoy rates object instantiated
+2021-06-11 14:54:47,894:INFO:Inventoy rates calculated
+2021-06-11 14:56:32,763:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-11 14:56:56,461:DEBUG:Product columns: ['Product Name']
+2021-06-11 14:56:56,461:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-11 14:56:56,461:INFO:Inventoy rates object instantiated
+2021-06-11 14:56:57,087:INFO:Inventoy rates calculated
+2021-06-11 15:08:45,488:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-11 15:09:42,842:DEBUG:Product columns: ['Product Name']
+2021-06-11 15:09:42,842:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-11 15:09:42,842:INFO:Inventoy rates object instantiated
+2021-06-11 15:09:43,484:INFO:Inventoy rates calculated
+2021-06-11 15:10:51,588:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-11 15:11:22,549:DEBUG:Product columns: ['Product Name']
+2021-06-11 15:11:22,549:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-11 15:11:22,549:INFO:Inventoy rates object instantiated
+2021-06-11 15:11:23,184:INFO:Inventoy rates calculated
+2021-06-11 15:56:47,640:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 15:28:24,189:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 15:29:59,610:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 15:31:56,956:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 15:37:00,064:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 15:40:27,857:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:07:28,750:INFO:File selected: 
+2021-06-17 16:07:42,267:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:08:47,314:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:09:36,847:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:11:58,936:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:13:53,846:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:15:47,599:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:36:53,774:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:38:02,873:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:39:13,880:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:46:54,454:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-17 16:53:49,275:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-18 14:47:23,980:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-18 14:48:30,663:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-18 14:48:43,316:DEBUG:Product columns: ['Product Name']
+2021-06-18 14:48:43,316:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-18 14:48:43,316:INFO:Inventoy rates object instantiated
+2021-06-18 14:48:44,002:INFO:Inventoy rates calculated
+2021-06-18 14:58:49,289:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-18 14:59:13,783:DEBUG:Product columns: ['Product Name']
+2021-06-18 14:59:13,783:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-18 14:59:13,783:INFO:Inventoy rates object instantiated
+2021-06-18 14:59:14,446:INFO:Inventoy rates calculated
+2021-06-25 11:08:18,552:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 11:09:07,444:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 11:09:34,902:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 11:10:44,021:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 11:13:51,253:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 11:15:04,580:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 11:16:09,614:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 11:17:25,202:INFO:File selected: /Users/clare/Desktop/Malawi/Malawi LMIS Data/Consolidated Oxytocin Data Jan - Jun 2020.xlsx
+2021-06-25 11:24:33,728:INFO:File selected: /Users/clare/Desktop/Malawi/MNCH Raw data 2019+2020 (1).xlsx
+2021-06-25 11:30:04,680:INFO:File selected: /Users/clare/Desktop/Malawi/MNCH Raw data 2019+2020 (1).xlsx
+2021-06-25 11:31:04,480:INFO:File selected: /Users/clare/Desktop/Malawi/MNCH Raw data 2019+2020 (1).xlsx
+2021-06-25 13:08:04,379:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 13:08:33,030:DEBUG:Product columns: ['Product Name']
+2021-06-25 13:08:33,030:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-25 13:08:33,030:INFO:Inventoy rates object instantiated
+2021-06-25 13:08:33,159:INFO:Inventoy rates calculated
+2021-06-25 13:45:11,688:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 13:50:22,180:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 13:50:42,772:DEBUG:Product columns: ['Product Name']
+2021-06-25 13:50:42,772:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-25 13:50:42,772:INFO:Inventoy rates object instantiated
+2021-06-25 13:50:42,898:INFO:Inventoy rates calculated
+2021-06-25 13:53:29,333:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 13:53:39,003:DEBUG:Product columns: ['Product Name']
+2021-06-25 13:53:39,004:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-25 13:53:39,004:INFO:Inventoy rates object instantiated
+2021-06-25 13:53:39,110:INFO:Inventoy rates calculated
+2021-06-25 13:55:50,612:INFO:File selected: 
+2021-06-25 13:57:03,583:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 13:57:15,618:DEBUG:Product columns: ['Product Name']
+2021-06-25 13:57:15,618:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-25 13:57:15,618:INFO:Inventoy rates object instantiated
+2021-06-25 13:57:15,736:INFO:Inventoy rates calculated
+2021-06-25 13:57:22,393:INFO:Report created
+2021-06-25 13:59:33,850:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 13:59:44,162:DEBUG:Product columns: ['Product Name']
+2021-06-25 13:59:44,162:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-25 13:59:44,162:INFO:Inventoy rates object instantiated
+2021-06-25 13:59:44,274:INFO:Inventoy rates calculated
+2021-06-25 13:59:49,246:INFO:Report created
+2021-06-25 14:09:53,312:INFO:File selected: /Users/clare/Desktop/Ghana/Western Region Data Updated3.16.20.xlsx
+2021-06-25 14:10:32,373:DEBUG:Product columns: ['Product Name']
+2021-06-25 14:10:32,373:DEBUG:Facility columns: ['Facility', 'Region']
+2021-06-25 14:10:32,373:INFO:Inventory rates object instantiated
+2021-06-25 14:10:32,515:INFO:Inventory rates calculated
+2021-06-25 14:10:35,407:INFO:Report created
