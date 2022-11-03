@@ -1,0 +1,85 @@
+2022-02-09 18:22:15,019:INFO:File selected: 
+2022-02-09 18:28:26,738:INFO:File selected: 
+2022-02-09 18:28:52,199:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/t_cfmp_stockstatus_for_ia_fp.csv
+2022-02-13 11:38:09,755:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/t_cfmp_stockstatus_for_ia_arv.csv
+2022-02-13 11:38:22,019:DEBUG:Product columns: ['ItemNameAdj']
+2022-02-13 11:38:22,019:DEBUG:Facility columns: ['FacilityName']
+2022-02-13 11:38:22,019:INFO:Inventory rates object instantiated
+2022-02-13 11:39:07,437:INFO:Inventory rates calculated
+2022-02-13 11:39:17,960:INFO:Report created
+2022-02-13 11:45:01,860:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/t_cfmp_stockstatus_for_ia_fp.csv
+2022-02-13 11:45:06,551:DEBUG:Product columns: ['ItemNameAdj']
+2022-02-13 11:45:06,551:DEBUG:Facility columns: ['FacilityName']
+2022-02-13 11:45:06,551:INFO:Inventory rates object instantiated
+2022-02-13 11:45:11,631:INFO:Inventory rates calculated
+2022-02-13 11:45:17,447:INFO:Report created
+2022-02-13 11:51:14,170:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/t_cfmp_stockstatus_for_ia_arv.csv
+2022-02-13 11:51:16,670:DEBUG:Product columns: ['ItemNameAdj']
+2022-02-13 11:51:16,670:DEBUG:Facility columns: ['FacilityName']
+2022-02-13 11:51:16,670:INFO:Inventory rates object instantiated
+2022-02-13 11:51:53,411:INFO:Inventory rates calculated
+2022-04-01 16:44:11,480:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/t_cfmp_stockstatus_for_ia_fp.csv
+2022-04-01 16:45:30,544:DEBUG:Product columns: ['ItemName']
+2022-04-01 16:45:30,544:DEBUG:Facility columns: ['FacilityName']
+2022-04-01 16:45:30,544:INFO:Inventory rates object instantiated
+2022-04-01 16:45:37,755:INFO:Inventory rates calculated
+2022-05-12 13:44:38,730:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IndOutput.xlsx
+2022-05-12 13:45:23,884:DEBUG:Product columns: ['Product', 'Product Category']
+2022-05-12 13:45:23,884:DEBUG:Facility columns: ['Health Facility', 'Province', 'District']
+2022-05-12 13:45:23,884:INFO:Inventory rates object instantiated
+2022-05-12 13:50:09,561:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IndOutput.xlsx
+2022-05-12 13:50:20,715:DEBUG:Product columns: ['Product', 'Product Category']
+2022-05-12 13:50:20,715:DEBUG:Facility columns: ['Health Facility', 'Province', 'District']
+2022-05-12 13:50:20,715:INFO:Inventory rates object instantiated
+2022-05-12 13:50:47,832:INFO:Inventory rates calculated
+2022-05-12 13:51:05,646:INFO:Report created
+2022-05-12 14:02:01,657:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IndOutput.xlsx
+2022-05-12 14:02:10,887:DEBUG:Product columns: ['Product', 'Product Category']
+2022-05-12 14:02:10,887:DEBUG:Facility columns: ['Health Facility', 'Province', 'District']
+2022-05-12 14:02:10,887:INFO:Inventory rates object instantiated
+2022-05-12 14:02:35,128:INFO:Inventory rates calculated
+2022-05-12 14:03:02,307:INFO:Report created
+2022-06-10 15:19:42,592:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IA_Sample_Cumulateive.xlsx
+2022-06-10 15:21:51,327:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IA_Sample_Cumulateive.xlsx
+2022-06-10 15:22:10,421:DEBUG:Product columns: ['Product']
+2022-06-10 15:22:10,422:DEBUG:Facility columns: ['Facility']
+2022-06-10 15:22:10,422:INFO:Inventory rates object instantiated
+2022-06-10 15:22:10,720:INFO:Inventory rates calculated
+2022-06-10 15:22:17,045:INFO:Report created
+2022-06-10 15:51:21,968:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IA_Sample_Cumulateive.xlsx
+2022-06-10 15:51:49,971:DEBUG:Product columns: ['Product']
+2022-06-10 15:51:49,971:DEBUG:Facility columns: ['Facility']
+2022-06-10 15:51:49,971:INFO:Inventory rates object instantiated
+2022-06-10 15:51:50,202:INFO:Inventory rates calculated
+2022-06-10 15:51:53,485:INFO:Report created
+2022-06-10 16:29:01,050:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IA_Sample_Cumulateive.xlsx
+2022-06-10 16:29:22,546:DEBUG:Product columns: ['Product']
+2022-06-10 16:29:22,546:DEBUG:Facility columns: ['Facility']
+2022-06-10 16:29:22,546:INFO:Inventory rates object instantiated
+2022-06-10 16:29:22,777:INFO:Inventory rates calculated
+2022-06-10 17:23:32,271:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IA_Sample_Cumulateive.xlsx
+2022-06-10 17:23:36,231:DEBUG:Product columns: ['Product']
+2022-06-10 17:23:36,231:DEBUG:Facility columns: ['Facility']
+2022-06-10 17:23:36,231:INFO:Inventory rates object instantiated
+2022-06-10 17:23:36,493:INFO:Inventory rates calculated
+2022-06-10 17:26:32,659:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IA_Sample_Transactional.xlsx
+2022-06-10 17:26:39,388:DEBUG:Product columns: ['Product']
+2022-06-10 17:26:39,388:DEBUG:Facility columns: ['Facility']
+2022-06-10 17:26:39,388:INFO:Inventory rates object instantiated
+2022-06-10 17:26:39,800:INFO:Inventory rates calculated
+2022-06-10 17:27:39,141:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IA_Sample_Transactional.xlsx
+2022-06-10 17:27:43,401:DEBUG:Product columns: ['Product']
+2022-06-10 17:27:43,401:DEBUG:Facility columns: ['Facility']
+2022-06-10 17:27:43,401:INFO:Inventory rates object instantiated
+2022-06-10 17:27:43,753:INFO:Inventory rates calculated
+2022-06-10 17:32:04,078:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/IA data/IA_Sample_Cumulateive.xlsx
+2022-06-10 17:32:08,258:DEBUG:Product columns: ['Product']
+2022-06-10 17:32:08,258:DEBUG:Facility columns: ['Facility']
+2022-06-10 17:32:08,258:INFO:Inventory rates object instantiated
+2022-06-10 17:32:08,874:INFO:Inventory rates calculated
+2022-10-20 09:21:13,017:INFO:File selected: C:/Users/ClareMIsaacson/Desktop/Sample Data/IA data/t_cfmp_stockstatus_for_ia_arv.csv
+2022-10-20 09:22:11,580:DEBUG:Product columns: ['ItemNameAdj']
+2022-10-20 09:22:11,580:DEBUG:Facility columns: ['FacilityName']
+2022-10-20 09:22:11,580:INFO:Inventory rates object instantiated
+2022-10-20 09:22:49,974:INFO:Inventory rates calculated
+2022-10-20 09:23:10,287:INFO:Report created
