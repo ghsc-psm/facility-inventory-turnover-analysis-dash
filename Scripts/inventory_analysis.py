@@ -18,8 +18,11 @@ class InventoryRates():
         self.inv_type = inv_type
         self.data_path = data_path
         self.data_sheet = data_sheet
+        print(">> reading in data")
         self.data_frame = pd.read_excel(self.data_path,sheet_name = self.data_sheet) if ('.xlsx' in self.data_path) else pd.read_csv(self.data_path)
         self.data_frame = self.data_frame.rename(columns=lambda x: x.strip())
+        print(">> data read in ")
+        print(">> normalizing date types")
         self.date_col = date_col
         self.issue_col = issue_col
         self.soh_col = soh_col
@@ -42,125 +45,126 @@ class InventoryRates():
 
     @property
     def data_frame(self):
-    	return self._data_frame
+        return self._data_frame
     
     @data_frame.setter
     def data_frame(self, df):
-    	self._data_frame = df
+        self._data_frame = df
 
     @property
     def date_col(self):
-    	return self._date_col
+        return self._date_col
 
     @date_col.setter
     def date_col(self, d):
-    	if not d:
-    		raise ValueError(f"Date column not specified")
-    	if not (d in self.data_frame):
-    		raise ValueError(f"Column '{d}' is not in data")
-    	self._date_col = d
-    	self.data_frame[self.date_col] = pd.to_datetime(self.data_frame[self.date_col])
-    	# if cumulative, check that date does not occur multiple times for the same grouping
+        if not d:
+            raise ValueError(f"Date column not specified")
+        if not (d in self.data_frame):
+            raise ValueError(f"Column '{d}' is not in data")
+        self._date_col = d
+        self.data_frame[self.date_col] = pd.to_datetime(self.data_frame[self.date_col])
+        # if cumulative, check that date does not occur multiple times for the same grouping
 
     @property
     def issue_col(self):
-    	return self._issue_col
+        return self._issue_col
 
     @issue_col.setter
     def issue_col(self, i):
-    	if not i:
-    		raise ValueError(f"Issue column not specified")
-    	if not (i in self.data_frame):
-    		raise ValueError(f"Column '{i}' is not in data")
-    	self._issue_col = i
+        if not i:
+            raise ValueError(f"Issue column not specified")
+        if not (i in self.data_frame):
+            raise ValueError(f"Column '{i}' is not in data")
+        self._issue_col = i
 
     @property
     def soh_col(self):
-    	return self._soh_col
+        return self._soh_col
 
     @soh_col.setter
     def soh_col(self, s):
-    	if not s:
-    		raise ValueError(f"SOH column not specified")
-    	if not (s in self.data_frame):
-    		raise ValueError(f"Column '{s}' is not in data")
-    	self._soh_col = s
+        if not s:
+            raise ValueError(f"SOH column not specified")
+        if not (s in self.data_frame):
+            raise ValueError(f"Column '{s}' is not in data")
+        self._soh_col = s
 
     @property
     def agg_cols(self):
-    	return self._agg_cols
+        return self._agg_cols
 
     @agg_cols.setter
     def agg_cols(self, a):
-    	if not a:
-    		raise ValueError(f"Aggregation columns not specified")
-    	for col in a:
-    		if not (col in self.data_frame):
-    			raise ValueError(f"Column '{col}' is not in data")
-    	self._agg_cols = a
+        if not a:
+            raise ValueError(f"Aggregation columns not specified")
+        for col in a:
+            if not (col in self.data_frame):
+                raise ValueError(f"Column '{col}' is not in data")
+        self._agg_cols = a
 
     @property
     def fac_cols(self):
-    	return self._fac_cols
+        return self._fac_cols
 
     @fac_cols.setter
     def fac_cols(self, f):
-    	if not f:
-    		raise ValueError(f"Facility columns not specified")
-    	for col in f:
-    		if not (col in self.data_frame):
-    			raise ValueError(f"Column '{col}' is not in data")
-    	self._fac_cols = f
+        if not f:
+            raise ValueError(f"Facility columns not specified")
+        for col in f:
+            if not (col in self.data_frame):
+                raise ValueError(f"Column '{col}' is not in data")
+        self._fac_cols = f
 
     @property
     def prod_cols(self):
-    	return self._prod_cols
+        return self._prod_cols
 
     @prod_cols.setter
     def prod_cols(self, p):
-    	if not p:
-    		raise ValueError(f"Product columns not specified")
-    	for col in p:
-    		if not (col in self.data_frame):
-    			raise ValueError(f"Column '{col}' is not in data")
-    	self._prod_cols = p
+        if not p:
+            raise ValueError(f"Product columns not specified")
+        for col in p:
+            if not (col in self.data_frame):
+                raise ValueError(f"Column '{col}' is not in data")
+        self._prod_cols = p
 
     @property
     def window(self):
-    	return self._window
+        return self._window
 
     @window.setter
     def window(self, w):
-    	#if not (len(w) == 2):
-    	#	raise ValueError("Invalid window - must have length 2 min and max")
-    	if not (type(w) == int): #and type(w[1] == int)):
-    		raise ValueError("Invalid window types - must be integer")
-    	#if not (w[0] < w[1]):
-    		#raise ValueError("Invalid window - min must be less than max")
-    	self._window = w
+        #if not (len(w) == 2):
+        #	raise ValueError("Invalid window - must have length 2 min and max")
+        if not (type(w) == int): #and type(w[1] == int)):
+            raise ValueError("Invalid window types - must be integer")
+        #if not (w[0] < w[1]):
+            #raise ValueError("Invalid window - min must be less than max")
+        self._window = w
 
     #@method
     def rolling_rates(self):
+        def groupby_fn(x):
+            # calculate rolling rates
+            df = x.rolling(window = self.window, min_periods = self.window//2).agg({self.issue_col:['std','mean','sum','count'],self.soh_col:'mean'})
+           
+            # collapse column names
+            df.columns = df.columns.map('_'.join).str.strip('_')
+
+            # combine with grouped columns
+            df = pd.concat([x[self.agg_cols+[self.date_col]],df],axis=1,join='inner')
+
+            return df
+
         for col in self.agg_cols:
-        	self.data_frame[col] = self.data_frame[col].map(str)
+            self.data_frame[col] = self.data_frame[col].map(str)
+        print('>> aggregating monthly values')
         grouped = (self.data_frame.groupby(self.agg_cols+[self.date_col])
-                   .agg({self.issue_col:'sum', self.soh_col:'mean'})
-                   .groupby(level=0)
-                   .rolling(window=self.window,min_periods=self.window//2)
-                   .agg({self.issue_col:['std','mean','sum','count'],self.soh_col:'mean'}))
-        grouped.columns = grouped.columns.map('_'.join).str.strip('_')
-        grouped = grouped.reset_index(level=0).drop(self.fac_cols,axis=1).reset_index()
-        print(grouped)
-        #grouped = self.data_frame.groupby(self.agg_cols+[self.date_col]).agg({self.issue_col:'sum', self.soh_col:'mean'})
-        #print('grouped after groupby')
-        #print(grouped)
-        #grouped = grouped.rolling(window=self.window, min_periods=self.window)
-        #print('grouped after rolling')
-        #print(grouped)
-        #grouped = grouped.agg({self.issue_col:['std','mean','sum','count'],self.soh_col:'mean'}).reset_index(level=0).reset_index()
-        #print('grouped after agg')
-        #print(grouped)
-        #grouped.columns = grouped.columns.map('_'.join).str.strip('_')
+                   .agg({self.issue_col:'sum', self.soh_col:'mean'})).reset_index()
+
+        print(">> calculating rolling rates by facility/product (this may take a moment)")
+        grouped = grouped.groupby(self.agg_cols).apply(lambda x: groupby_fn(x))
+        
         grouped['Consumption_COV'] = grouped[self.issue_col+'_std']/grouped[self.issue_col+'_mean']
         grouped['Inventory_turn'] = grouped[self.issue_col+'_sum']/grouped[self.soh_col+'_mean']
         grouped.loc[~np.isfinite(grouped['Inventory_turn']), 'Inventory_turn'] = np.nan
@@ -192,9 +196,7 @@ class InventoryRates():
             return pd.Series(d,index=['Stock Status As Of','Stock on Hand','AMC','% Records Blank'])
 
         df = self.data_frame.sort_values(by=[self.date_col])
-        print('before')
         df = df.groupby([self.fac_cols[0],self.prod_cols[0]]).apply(lambda x: group_last_soh(x)).reset_index()
-        print('after')
         df['MOS'] = np.where(df['AMC']==0,0,df['Stock on Hand']/df['AMC'])
         df = df[[self.fac_cols[0],self.prod_cols[0],'Stock Status As Of','Stock on Hand','AMC','MOS','% Records Blank']]
         self.stock_data = df

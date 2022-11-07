@@ -153,7 +153,7 @@ class IAGui:
 			run_button.grid(row=15,column=2)
 	
 	def runIA(self):
-		print("running")
+		print("> initiating")
 		products = list(filter(None,[self.product.get(),self.product1.get(),self.product2.get()]))
 		facilities = list(filter(None,[self.facility.get(),self.facility1.get(),self.facility2.get()]))
 		i = InventoryRates(inv_type = self.data_type.get(), data_path = self.filename, date_col = self.date_field.get(), issue_col = self.issue_col.get(), soh_col = self.soh_col.get(), window= self.rates_window.get(),agg_cols=facilities+products,fac_cols = facilities, prod_cols=products)
@@ -161,28 +161,31 @@ class IAGui:
 		logging.debug('Product columns: {}'.format(products))
 		logging.debug('Facility columns: {}'.format(facilities))
 		logging.info('Inventory rates object instantiated')
+		print("> cleaning data")
 		i.clean_text()
+		print("> adjusting for transactional data (if applicable)")
 		i.transactional()
-		print("being rolling rates")
+		print("> begin rolling rates")
 		i.rolling_rates()
-		print("end rolling rates")
+		print("> end rolling rates")
+		print("> begin stock status")
 		i.stock_status()
-		print("end stock status")
+		print("> end stock status")
 		i.format_columns()
-		print("end format cols")
+		print("> end format cols")
 		i.create_ref_tables()
-		print("end create ref tables")
+		print("> end create ref tables")
 		self.analysis = i
 
 		#write files
-		print('executing')
+		print('> writing output')
 		self.analysis.rates_data.to_csv('rates_data.txt', index=None, sep=' ', mode='w')
 		self.analysis.stock_data.to_csv('stock_data.txt', index=None, sep=' ', mode='w')
 		self.analysis.prod_table.to_csv('product_list.txt', index=None, sep=' ', mode='w')
 		self.analysis.fac_table.to_csv('facility_list.txt', index=None, sep=' ', mode='w')
 		self.analysis.plot_data.to_csv('plot_data.txt', index=None, sep=' ', mode='w')
 		self.analysis.dates_table.to_csv('dates_table.txt', index=None, sep=' ', mode='w')
-		print('finished')
+		print('> finished')
 
 		logging.info('Inventory rates calculated')
 
