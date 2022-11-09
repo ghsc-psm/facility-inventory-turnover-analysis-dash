@@ -93,12 +93,13 @@ class IAGui:
 				#wb = openpyxl.load_workbook(self.filename)
 				#print(wb.sheetnames)
 				wb = pd.ExcelFile(self.filename)
-				#print(wb.sheet_names)
-				if len(wb.sheet_names) == 1:
-					self.sheetname.set(wb.sheet_names[0])
-				else:
-					Label(window, text="Sheet").grid(row=1, column=1,sticky=E)
-					ttk.Combobox(window, textvariable=self.sheetname, values=wb.sheet_names,justify=LEFT).grid(row=1,column=2, padx=(0,5))
+				print(wb.sheet_names)
+				#if len(wb.sheet_names) == 1:
+				self.sheetname.set(wb.sheet_names[0])
+				# else:
+				# 	Label(window, text="Sheet").grid(row=1, column=1,sticky=E)
+				# 	ttk.Combobox(window, textvariable=self.sheetname, values=wb.sheet_names,justify=LEFT).grid(row=1,column=2, padx=(0,5))
+				# 	time.sleep(5)
 				self.column_names = [x.strip() for x in list(pd.read_excel(self.filename,sheet_name = self.sheetname.get(),nrows=1).columns)]
 			elif str(self.filename).endswith('.csv'):
 				self.column_names = [x.strip() for x in list(pd.read_csv(self.filename,nrows=1).columns)]
