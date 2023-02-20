@@ -83,3 +83,405 @@
 2022-10-20 09:22:11,580:INFO:Inventory rates object instantiated
 2022-10-20 09:22:49,974:INFO:Inventory rates calculated
 2022-10-20 09:23:10,287:INFO:Report created
+2022-11-07 14:40:41,051:INFO:File selected: C:/USAID_PSM/Countries/Malawi/Malawi_20_21.csv
+2022-11-07 14:41:35,227:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-11-07 14:41:35,227:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-11-07 14:41:35,227:INFO:Inventory rates object instantiated
+2022-11-07 14:42:25,395:INFO:File selected: C:/USAID_PSM/Countries/Zambia/ZM_SI_Data_EMLIP_0422.csv
+2022-11-07 14:45:30,709:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2022-11-07 14:45:30,710:DEBUG:Facility columns: ['Facility', 'FacilityID', 'District']
+2022-11-07 14:45:30,710:INFO:Inventory rates object instantiated
+2022-11-07 14:47:41,594:INFO:Inventory rates calculated
+2022-11-07 14:48:26,964:INFO:Report created
+2022-11-07 15:06:48,363:INFO:File selected: C:/USAID_PSM/Countries/Zambia/ZM_SI_Data_EMLIP_0422.csv
+2022-11-07 15:08:05,168:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2022-11-07 15:08:05,168:DEBUG:Facility columns: ['Facility', 'FacilityID', 'District']
+2022-11-07 15:08:05,168:INFO:Inventory rates object instantiated
+2022-11-07 15:10:12,374:INFO:Inventory rates calculated
+2022-11-07 15:10:18,058:INFO:Report created
+2022-11-07 16:41:18,472:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2022-11-07 16:41:18,472:DEBUG:Facility columns: ['Facility', 'FacilityID', 'District']
+2022-11-07 16:41:18,472:INFO:Inventory rates object instantiated
+2022-11-07 16:42:31,724:INFO:File selected: C:/USAID_PSM/Countries/Zambia/ZM_SI_Data_EMLIP_0422.csv
+2022-11-07 16:44:20,299:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2022-11-07 16:44:20,299:DEBUG:Facility columns: ['Facility', 'District', 'FacilityID']
+2022-11-07 16:44:20,299:INFO:Inventory rates object instantiated
+2022-11-07 16:46:11,627:INFO:Inventory rates calculated
+2022-11-07 16:46:44,633:INFO:Report created
+2022-11-08 10:06:56,393:INFO:File selected: C:/USAID_PSM/Countries/Malawi/Malawi_20_21.csv
+2022-11-08 10:07:32,837:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-11-08 10:07:32,838:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-11-08 10:07:32,838:INFO:Inventory rates object instantiated
+2022-11-08 10:17:15,087:INFO:Inventory rates calculated
+2022-11-08 10:20:40,872:INFO:Report created
+2022-11-08 11:56:17,441:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Burma/Burma_mSupply_Data.xlsx
+2022-11-08 11:57:16,010:DEBUG:Product columns: ['Item Name', 'code']
+2022-11-08 11:57:16,010:DEBUG:Facility columns: ['Facility']
+2022-11-08 11:57:16,010:INFO:Inventory rates object instantiated
+2022-11-08 11:57:16,792:INFO:Inventory rates calculated
+2022-11-08 11:57:27,063:INFO:Report created
+2022-11-08 14:18:03,221:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-08 14:25:56,627:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 10:38:16,211:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Namibia/t_cfmp_stockstatus_for_ia_arv.csv
+2022-11-09 10:46:26,609:DEBUG:Product columns: ['ItemName', 'ItemCode', 'PackSize']
+2022-11-09 10:46:26,609:DEBUG:Facility columns: ['FacilityName', 'FacilityCode', 'RegionName']
+2022-11-09 10:46:26,609:INFO:Inventory rates object instantiated
+2022-11-09 10:46:42,347:INFO:Inventory rates calculated
+2022-11-09 10:46:55,916:INFO:Report created
+2022-11-09 11:27:40,836:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Namibia/t_cfmp_stockstatus_for_ia_fp.csv
+2022-11-09 11:31:17,834:DEBUG:Product columns: ['ItemName', 'ItemNo', 'ItemGroupId']
+2022-11-09 11:31:17,834:DEBUG:Facility columns: ['FacilityName', 'FacilityCode', 'RegionName']
+2022-11-09 11:31:17,834:INFO:Inventory rates object instantiated
+2022-11-09 11:31:20,408:INFO:Inventory rates calculated
+2022-11-09 11:33:06,336:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Namibia/t_cfmp_stockstatus_for_ia_fp.csv
+2022-11-09 11:34:09,058:DEBUG:Product columns: ['ItemName', 'ItemCode', 'PackSize']
+2022-11-09 11:34:09,058:DEBUG:Facility columns: ['FacilityName', 'FacilityCode', 'RegionName']
+2022-11-09 11:34:09,058:INFO:Inventory rates object instantiated
+2022-11-09 11:34:11,493:INFO:Inventory rates calculated
+2022-11-09 11:34:13,854:INFO:Report created
+2022-11-09 11:44:51,555:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 11:57:52,085:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 12:14:24,382:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Burma/Burma_mSupply_Data.xlsx
+2022-11-09 12:31:14,414:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 12:44:12,789:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 13:41:35,710:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 13:44:12,132:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 13:59:39,101:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 14:06:27,805:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 14:47:22,445:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 14:48:41,789:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-09 14:50:22,303:DEBUG:Product columns: ['Generic']
+2022-11-09 14:50:22,303:DEBUG:Facility columns: ['Sites', 'District', 'Provinces']
+2022-11-09 14:50:22,303:INFO:Inventory rates object instantiated
+2022-11-09 14:50:50,621:INFO:Inventory rates calculated
+2022-11-09 14:50:57,105:INFO:Report created
+2022-11-10 09:16:05,211:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Indonesia/Indonesia ARV stock and dispensing April'21 to May'22 updated.xlsx
+2022-11-10 09:17:02,404:DEBUG:Product columns: ['Generic']
+2022-11-10 09:17:02,404:DEBUG:Facility columns: ['Sites', 'District', 'Provinces']
+2022-11-10 09:17:02,404:INFO:Inventory rates object instantiated
+2022-11-10 09:17:28,819:INFO:Inventory rates calculated
+2022-11-10 09:17:32,803:INFO:Report created
+2022-11-10 09:56:55,289:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Haiti/Haiti_WMS_Data.csv
+2022-11-10 10:16:35,994:DEBUG:Product columns: ['Product Description', 'Product Code']
+2022-11-10 10:16:35,994:DEBUG:Facility columns: ['Category']
+2022-11-10 10:16:35,994:INFO:Inventory rates object instantiated
+2022-11-10 10:16:43,415:INFO:Inventory rates calculated
+2022-11-10 10:16:45,617:INFO:Report created
+2022-11-10 10:26:17,868:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Haiti/Haiti_WMS_Data.csv
+2022-11-10 10:27:13,598:DEBUG:Product columns: ['Product Description', 'Product Code']
+2022-11-10 10:27:13,598:DEBUG:Facility columns: ['Category']
+2022-11-10 10:27:13,598:INFO:Inventory rates object instantiated
+2022-11-10 10:27:21,241:INFO:Inventory rates calculated
+2022-11-10 10:27:24,293:INFO:Report created
+2022-11-28 10:57:23,057:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Zambia/ZM_SI_Data_EMLIP_0422.csv
+2022-11-28 11:03:59,015:DEBUG:Product columns: ['ProductName']
+2022-11-28 11:03:59,015:DEBUG:Facility columns: ['Facility']
+2022-11-28 11:03:59,015:INFO:Inventory rates object instantiated
+2022-11-28 11:05:53,844:INFO:Inventory rates calculated
+2022-12-13 15:33:17,590:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_18-19/Malawi_2018-19_HIV.xlsx
+2022-12-13 15:34:54,497:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-13 15:34:54,498:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-13 15:34:54,498:INFO:Inventory rates object instantiated
+2022-12-13 15:36:46,460:INFO:Inventory rates calculated
+2022-12-13 15:37:02,420:INFO:Report created
+2022-12-19 12:47:59,388:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/Malawi_2020-21_HIV.xlsx
+2022-12-19 12:49:32,297:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-19 12:49:32,297:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-19 12:49:32,297:INFO:Inventory rates object instantiated
+2022-12-19 12:52:58,677:INFO:Inventory rates calculated
+2022-12-19 12:53:05,647:INFO:Report created
+2022-12-21 11:24:55,061:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/HIV/Malawi_2020-21_HIV.xlsx
+2022-12-21 11:26:24,795:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-21 11:26:24,796:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-21 11:26:24,796:INFO:Inventory rates object instantiated
+2022-12-21 11:29:43,941:INFO:Inventory rates calculated
+2022-12-21 11:53:31,677:INFO:Report created
+2022-12-21 12:08:17,653:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_19-20/Malawi_2019-20_HIV.xlsx
+2022-12-21 12:10:05,575:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-21 12:10:05,575:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-21 12:10:05,575:INFO:Inventory rates object instantiated
+2022-12-21 12:13:02,600:INFO:Inventory rates calculated
+2022-12-21 12:13:35,230:INFO:Report created
+2022-12-21 12:14:31,690:INFO:Report created
+2022-12-21 14:41:49,372:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_18-19/Malawi_2018-19_HIV.xlsx
+2022-12-21 14:43:11,345:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-21 14:43:11,345:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-21 14:43:11,345:INFO:Inventory rates object instantiated
+2022-12-21 14:44:58,250:INFO:Inventory rates calculated
+2022-12-21 14:47:03,610:INFO:Report created
+2022-12-21 17:15:28,934:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Namibia/t_cfmp_stockstatus_for_ia_fp.csv
+2022-12-21 17:23:31,086:DEBUG:Product columns: ['ItemName', 'ItemCode']
+2022-12-21 17:23:31,086:DEBUG:Facility columns: ['FacilityName', 'FacilityCode']
+2022-12-21 17:23:31,086:INFO:Inventory rates object instantiated
+2022-12-21 17:23:33,595:INFO:Inventory rates calculated
+2022-12-21 17:23:37,243:INFO:Report created
+2022-12-22 17:01:06,106:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/Malawi_2020-21_Malaria.xlsx
+2022-12-22 17:02:29,608:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-22 17:02:29,609:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-22 17:02:29,609:INFO:Inventory rates object instantiated
+2022-12-22 17:03:20,394:INFO:Inventory rates calculated
+2022-12-22 17:03:28,841:INFO:Report created
+2022-12-23 09:29:20,230:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/Malawi_2020-21_FP.xlsx
+2022-12-23 09:30:10,874:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 09:30:10,875:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 09:30:10,875:INFO:Inventory rates object instantiated
+2022-12-23 09:31:31,281:INFO:Inventory rates calculated
+2022-12-23 10:13:19,919:INFO:Report created
+2022-12-23 11:06:16,387:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/Malawi_2020-21.xlsx
+2022-12-23 11:06:56,303:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 11:06:56,303:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 11:06:56,304:INFO:Inventory rates object instantiated
+2022-12-23 11:08:09,113:INFO:Inventory rates calculated
+2022-12-23 11:10:52,061:INFO:Report created
+2022-12-23 12:13:13,261:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_19-20/Malaria/Malawi_2019-20_Malaria.xlsx
+2022-12-23 12:14:05,146:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 12:14:05,146:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 12:14:05,146:INFO:Inventory rates object instantiated
+2022-12-23 12:14:50,159:INFO:Inventory rates calculated
+2022-12-23 12:15:47,528:INFO:Report created
+2022-12-23 12:46:40,090:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_19-20/Family Planning/Malawi_2019-20_FP.xlsx
+2022-12-23 12:47:23,569:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 12:47:23,569:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 12:47:23,569:INFO:Inventory rates object instantiated
+2022-12-23 12:55:18,364:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 12:55:18,365:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 12:55:18,365:INFO:Inventory rates object instantiated
+2022-12-23 12:57:30,402:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_19-20/Family Planning/Malawi_2019-20_FP.xlsx
+2022-12-23 12:58:21,508:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 12:58:21,508:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 12:58:21,508:INFO:Inventory rates object instantiated
+2022-12-23 12:59:17,972:INFO:Inventory rates calculated
+2022-12-23 12:59:29,008:INFO:Report created
+2022-12-23 13:30:36,574:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_19-20/Others/Malawi_2019-20.xlsx
+2022-12-23 13:31:15,721:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 13:31:15,721:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 13:31:15,721:INFO:Inventory rates object instantiated
+2022-12-23 13:32:09,755:INFO:Inventory rates calculated
+2022-12-23 13:38:49,392:INFO:Report created
+2022-12-23 13:53:51,153:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_18-19/Malawi_2018-19_Malaria.xlsx
+2022-12-23 13:54:32,383:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 13:54:32,383:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 13:54:32,383:INFO:Inventory rates object instantiated
+2022-12-23 13:55:18,570:INFO:Inventory rates calculated
+2022-12-23 13:55:57,363:INFO:Report created
+2022-12-23 14:11:29,933:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_18-19/Family Planning/Malawi_2018-19_FP.xlsx
+2022-12-23 14:12:29,022:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 14:12:29,023:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 14:12:29,023:INFO:Inventory rates object instantiated
+2022-12-23 14:13:19,704:INFO:Inventory rates calculated
+2022-12-23 14:13:40,152:INFO:Report created
+2022-12-23 14:29:03,543:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_18-19/Others/Malawi_2018-19.xlsx
+2022-12-23 14:29:39,370:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 14:29:39,370:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 14:29:39,371:INFO:Inventory rates object instantiated
+2022-12-23 14:30:12,278:INFO:Inventory rates calculated
+2022-12-23 16:17:56,938:INFO:Report created
+2022-12-23 17:01:41,919:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_18-19/Essential Meds/Malawi_2018-19_EM.xlsx
+2022-12-23 17:04:52,251:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-23 17:04:52,251:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-23 17:04:52,251:INFO:Inventory rates object instantiated
+2022-12-23 17:12:16,280:INFO:Inventory rates calculated
+2022-12-23 17:12:28,945:INFO:Report created
+2022-12-28 15:22:36,746:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_19-20/Essential Meds/Malawi_2019_EM.xlsx
+2022-12-28 15:25:37,525:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-28 15:25:37,525:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-28 15:25:37,525:INFO:Inventory rates object instantiated
+2022-12-28 15:31:29,183:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_19-20/Essential Meds/Malawi_2020_EM.xlsx
+2022-12-28 15:33:33,545:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-28 15:33:33,546:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-28 15:33:33,546:INFO:Inventory rates object instantiated
+2022-12-28 15:40:22,452:INFO:Inventory rates calculated
+2022-12-28 15:59:46,234:INFO:Report created
+2022-12-29 09:16:54,340:INFO:File selected: C:/Users/7J4490897/Box/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/Essential Meds/Malawi_2021_EM.xlsx
+2022-12-29 09:19:05,334:DEBUG:Product columns: ['Product Name', 'Name (Programs)', 'Product Code']
+2022-12-29 09:19:05,334:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2022-12-29 09:19:05,335:INFO:Inventory rates object instantiated
+2022-12-29 09:26:15,418:INFO:Inventory rates calculated
+2022-12-29 09:57:22,021:INFO:Report created
+2023-01-11 15:31:19,497:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Haiti/Ht_WMS_18-19/Ht_WMS_18-19.csv
+2023-01-11 15:38:27,287:DEBUG:Product columns: ['Product Description']
+2023-01-11 15:38:27,287:DEBUG:Facility columns: ['Category']
+2023-01-11 15:38:27,287:INFO:Inventory rates object instantiated
+2023-01-11 15:38:32,602:INFO:Inventory rates calculated
+2023-01-11 15:38:37,759:INFO:Report created
+2023-01-11 16:08:45,871:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Haiti/Ht_WMS_19-20/Ht_WMS_19-20.csv
+2023-01-11 16:09:32,819:DEBUG:Product columns: ['Product Description']
+2023-01-11 16:09:32,819:DEBUG:Facility columns: ['Category']
+2023-01-11 16:09:32,819:INFO:Inventory rates object instantiated
+2023-01-11 16:09:36,978:INFO:Inventory rates calculated
+2023-01-11 16:09:39,957:INFO:Report created
+2023-01-11 16:14:44,029:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Haiti/Ht_WMS_20-21/Ht_WMS_20-21.csv
+2023-01-11 16:15:06,197:DEBUG:Product columns: ['Product Description']
+2023-01-11 16:15:06,198:DEBUG:Facility columns: ['Category']
+2023-01-11 16:15:06,198:INFO:Inventory rates object instantiated
+2023-01-11 16:15:10,268:INFO:Inventory rates calculated
+2023-01-11 16:15:12,321:INFO:Report created
+2023-01-11 16:19:51,825:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Haiti/Ht_WMS_21-22/Ht_WMS_21-22.csv
+2023-01-11 16:20:11,719:DEBUG:Product columns: ['Product Description']
+2023-01-11 16:20:11,719:DEBUG:Facility columns: ['Category']
+2023-01-11 16:20:11,719:INFO:Inventory rates object instantiated
+2023-01-11 16:20:15,624:INFO:Inventory rates calculated
+2023-01-11 16:20:52,421:INFO:Report created
+2023-01-12 14:51:36,093:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Zambia/HIV/ZM_HIV.xlsx
+2023-01-12 14:54:33,204:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2023-01-12 14:54:33,204:DEBUG:Facility columns: ['Facility', 'FacilityID', 'District']
+2023-01-12 14:54:33,204:INFO:Inventory rates object instantiated
+2023-01-12 14:56:09,203:INFO:Inventory rates calculated
+2023-01-12 15:00:27,640:INFO:Report created
+2023-01-12 15:42:34,624:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Zambia/ARV/ZM_ARV.xlsx
+2023-01-12 15:45:51,313:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2023-01-12 15:45:51,313:DEBUG:Facility columns: ['Facility', 'FacilityID', 'District']
+2023-01-12 15:45:51,314:INFO:Inventory rates object instantiated
+2023-01-12 15:49:20,009:INFO:Inventory rates calculated
+2023-01-12 16:02:27,353:INFO:Report created
+2023-01-13 17:35:44,092:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Zambia/ARV/ZM_ARV.xlsx
+2023-01-13 17:39:29,945:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2023-01-13 17:39:29,945:DEBUG:Facility columns: ['Facility', 'District']
+2023-01-13 17:39:29,945:INFO:Inventory rates object instantiated
+2023-01-13 17:41:44,108:INFO:Inventory rates calculated
+2023-01-13 17:41:52,226:INFO:Report created
+2023-01-13 17:49:23,139:INFO:Report created
+2023-01-18 16:25:04,580:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Zambia/HIV/ZM_HIV.xlsx
+2023-01-18 16:29:11,398:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2023-01-18 16:29:11,398:DEBUG:Facility columns: ['Facility', 'FacilityID', 'District']
+2023-01-18 16:29:11,398:INFO:Inventory rates object instantiated
+2023-01-18 16:30:31,564:INFO:Inventory rates calculated
+2023-01-18 16:32:17,474:INFO:Report created
+2023-01-18 16:55:20,673:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Haiti/Ht_WMS_18-19/Ht_WMS_18-19.csv
+2023-01-18 16:57:26,756:DEBUG:Product columns: ['Product Description', 'Product Code']
+2023-01-18 16:57:26,756:DEBUG:Facility columns: ['Category']
+2023-01-18 16:57:26,756:INFO:Inventory rates object instantiated
+2023-01-18 16:57:32,498:INFO:Inventory rates calculated
+2023-01-18 16:59:34,840:INFO:Report created
+2023-01-24 09:42:57,904:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/Malaria/Malawi_2020-21_Malaria.xlsx
+2023-01-24 09:45:14,063:DEBUG:Product columns: ['Product Name', 'Name (Programs)']
+2023-01-24 09:45:14,063:DEBUG:Facility columns: ['Facility Name', 'Code']
+2023-01-24 09:45:14,063:INFO:Inventory rates object instantiated
+2023-01-24 09:46:03,644:INFO:Inventory rates calculated
+2023-01-24 09:47:37,199:INFO:Report created
+2023-01-24 11:00:52,138:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Malawi/Malawi_consolidated_2021.xlsx
+2023-01-24 11:03:13,889:DEBUG:Product columns: ['Product Name', 'Name (Programs)']
+2023-01-24 11:03:13,889:DEBUG:Facility columns: ['Facility Name', 'Code']
+2023-01-24 11:03:13,889:INFO:Inventory rates object instantiated
+2023-01-24 11:14:16,810:INFO:Inventory rates calculated
+2023-01-31 10:50:14,106:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Malawi/Malawi_Malaria2018-21.xlsx
+2023-01-31 10:51:31,912:DEBUG:Product columns: ['Product Name', 'Name (Programs)']
+2023-01-31 10:51:31,912:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2023-01-31 10:51:31,912:INFO:Inventory rates object instantiated
+2023-01-31 10:52:28,444:INFO:Inventory rates calculated
+2023-01-31 10:52:33,350:INFO:Report created
+2023-02-02 14:12:37,374:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Zambia/ARV/ZM_ARV.xlsx
+2023-02-02 14:28:29,735:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Zambia/ARV/ZM_ARV.xlsx
+2023-02-02 14:31:24,751:DEBUG:Product columns: ['ProductName', 'ProductCode']
+2023-02-02 14:31:24,751:DEBUG:Facility columns: ['Facility', 'Province']
+2023-02-02 14:31:24,751:INFO:Inventory rates object instantiated
+2023-02-02 14:33:38,306:INFO:Inventory rates calculated
+2023-02-02 14:34:06,283:INFO:Report created
+2023-02-14 11:23:30,091:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Malawi/With MOS Data/Malaria/MW_19-22_MOS.xlsx
+2023-02-14 11:25:08,018:DEBUG:Product columns: ['Product Name', 'Name (Programs)']
+2023-02-14 11:25:08,018:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2023-02-14 11:25:08,018:INFO:Inventory rates object instantiated
+2023-02-14 11:26:29,525:INFO:Inventory rates calculated
+2023-02-14 11:28:06,392:INFO:Report created
+2023-02-15 14:05:59,530:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/ARVs and Test Kits_15_02_2023.xlsx
+2023-02-15 14:06:45,666:DEBUG:Product columns: ['Product']
+2023-02-15 14:06:45,666:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-15 14:06:45,666:INFO:Inventory rates object instantiated
+2023-02-15 14:06:49,116:INFO:Inventory rates calculated
+2023-02-15 14:06:50,879:INFO:Report created
+2023-02-15 14:14:00,107:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/ARVs and Test Kits_15_02_2023.xlsx
+2023-02-15 14:14:43,267:DEBUG:Product columns: ['Product']
+2023-02-15 14:14:43,267:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-15 14:14:43,267:INFO:Inventory rates object instantiated
+2023-02-15 14:14:46,732:INFO:Inventory rates calculated
+2023-02-15 14:14:49,014:INFO:Report created
+2023-02-15 14:16:38,999:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/Malaria Program_15_02_2023.xlsx
+2023-02-15 14:17:43,418:DEBUG:Product columns: ['Product']
+2023-02-15 14:17:43,418:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-15 14:17:43,418:INFO:Inventory rates object instantiated
+2023-02-15 14:18:19,485:INFO:Inventory rates calculated
+2023-02-15 14:18:36,825:INFO:Report created
+2023-02-15 14:18:37,000:INFO:Report created
+2023-02-15 14:18:38,059:INFO:Report created
+2023-02-15 14:20:18,680:DEBUG:Product columns: ['Product']
+2023-02-15 14:20:18,680:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-15 14:20:18,680:INFO:Inventory rates object instantiated
+2023-02-15 14:20:52,925:INFO:Inventory rates calculated
+2023-02-15 14:21:36,157:INFO:Report created
+2023-02-15 14:27:14,183:DEBUG:Product columns: ['Product']
+2023-02-15 14:27:14,184:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-15 14:27:14,184:INFO:Inventory rates object instantiated
+2023-02-15 14:27:50,026:INFO:Inventory rates calculated
+2023-02-15 14:28:05,184:INFO:Report created
+2023-02-15 14:33:58,421:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Consumption Anomaly/Malaria Program_02_02_2023.xlsx
+2023-02-15 14:34:37,923:DEBUG:Product columns: ['Product']
+2023-02-15 14:34:37,923:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-15 14:34:37,923:INFO:Inventory rates object instantiated
+2023-02-15 14:35:13,950:INFO:Inventory rates calculated
+2023-02-15 14:35:39,820:INFO:Report created
+2023-02-15 15:03:47,981:DEBUG:Product columns: ['Product']
+2023-02-15 15:03:47,982:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-15 15:03:47,982:INFO:Inventory rates object instantiated
+2023-02-15 15:04:24,287:INFO:Inventory rates calculated
+2023-02-15 15:04:31,704:INFO:Report created
+2023-02-15 15:37:24,686:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/FP & Reproductive Health_15_02_2023.xlsx
+2023-02-15 15:37:48,288:DEBUG:Product columns: ['Product']
+2023-02-15 15:37:48,288:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-15 15:37:48,288:INFO:Inventory rates object instantiated
+2023-02-15 15:37:58,632:INFO:Inventory rates calculated
+2023-02-15 15:38:01,538:INFO:Report created
+2023-02-15 15:41:16,233:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/Essential Medicines_15_02_2023.xlsx
+2023-02-15 15:41:39,390:DEBUG:Product columns: ['Product']
+2023-02-15 15:41:39,390:DEBUG:Facility columns: ['Health Facility']
+2023-02-15 15:41:39,390:INFO:Inventory rates object instantiated
+2023-02-15 15:41:42,816:INFO:Inventory rates calculated
+2023-02-15 15:41:53,354:INFO:Report created
+2023-02-15 16:11:53,609:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/ARVs and Test Kits_15_02_2023.xlsx
+2023-02-15 16:12:13,490:DEBUG:Product columns: ['Product']
+2023-02-15 16:12:13,490:DEBUG:Facility columns: ['Health Facility']
+2023-02-15 16:12:13,490:INFO:Inventory rates object instantiated
+2023-02-15 16:12:17,052:INFO:Inventory rates calculated
+2023-02-15 16:12:24,778:INFO:Report created
+2023-02-16 11:42:03,547:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Malawi/With MOS Data/Malaria/MW_19-22_MOS_clean.xlsx
+2023-02-16 11:42:59,783:DEBUG:Product columns: ['Product Name', 'Product Code']
+2023-02-16 11:42:59,783:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Code']
+2023-02-16 11:42:59,783:INFO:Inventory rates object instantiated
+2023-02-16 11:43:56,718:INFO:Inventory rates calculated
+2023-02-16 11:44:04,248:INFO:Report created
+2023-02-16 12:58:08,938:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Malawi/With MOS Data/Malaria/MW_19-22_MOS_clean.xlsx
+2023-02-16 12:59:01,911:DEBUG:Product columns: ['Product Name', 'Product Code']
+2023-02-16 12:59:01,912:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2023-02-16 12:59:01,912:INFO:Inventory rates object instantiated
+2023-02-16 12:59:58,934:INFO:Inventory rates calculated
+2023-02-16 13:00:07,315:INFO:Report created
+2023-02-17 09:49:54,841:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/ARVs and Test Kits_15_02_2023.xlsx
+2023-02-17 09:51:25,097:DEBUG:Product columns: ['Product']
+2023-02-17 09:51:25,097:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-17 09:51:25,097:INFO:Inventory rates object instantiated
+2023-02-17 09:51:28,623:INFO:Inventory rates calculated
+2023-02-17 09:51:31,205:INFO:Report created
+2023-02-17 09:51:42,971:INFO:Report created
+2023-02-17 10:06:05,513:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/Essential Medicines_15_02_2023.xlsx
+2023-02-17 10:06:30,780:DEBUG:Product columns: ['Product']
+2023-02-17 10:06:30,780:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-17 10:06:30,780:INFO:Inventory rates object instantiated
+2023-02-17 10:06:34,274:INFO:Inventory rates calculated
+2023-02-17 10:08:15,888:INFO:Report created
+2023-02-17 10:12:33,496:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/FP & Reproductive Health_15_02_2023.xlsx
+2023-02-17 10:13:00,899:DEBUG:Product columns: ['Product']
+2023-02-17 10:13:00,899:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-17 10:13:00,899:INFO:Inventory rates object instantiated
+2023-02-17 10:13:12,151:INFO:Inventory rates calculated
+2023-02-17 10:13:25,628:INFO:Report created
+2023-02-17 10:16:36,264:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/Malaria Program_15_02_2023.xlsx
+2023-02-17 10:16:59,140:DEBUG:Product columns: ['Product']
+2023-02-17 10:16:59,141:DEBUG:Facility columns: ['Health Facility', 'District Name', 'County Name']
+2023-02-17 10:16:59,141:INFO:Inventory rates object instantiated
+2023-02-17 10:17:34,689:INFO:Inventory rates calculated
+2023-02-17 10:17:59,626:INFO:Report created
+2023-02-20 16:22:53,043:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/Family Planning/Malawi_2020-21_FP.xlsx
+2023-02-20 16:23:31,400:DEBUG:Product columns: ['Product Name', 'Product Code']
+2023-02-20 16:23:31,400:DEBUG:Facility columns: ['Facility Name', 'Code']
+2023-02-20 16:23:31,400:INFO:Inventory rates object instantiated
+2023-02-20 16:24:52,155:INFO:Inventory rates calculated
+2023-02-20 16:26:47,924:INFO:Report created

@@ -216,6 +216,7 @@ class InventoryRates():
              self.soh_col+'_mean':'SOH_mean'}
         self.rates_data = self.rates_data.rename(columns=names)
         self.rates_data = self.rates_data[list(names.values())+['Consumption_COV','Inventory_turn']]
+        self.rates_data = self.rates_data[self.rates_data['Consumption_count']==self.window]
         self.stock_data = self.stock_data.rename(columns={self.fac_cols[0]:'Facility_id',self.prod_cols[0]:'Product_id'})
 
     def clean_text(self):
