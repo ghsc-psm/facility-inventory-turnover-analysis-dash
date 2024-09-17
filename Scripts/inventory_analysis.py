@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from datetime import datetime
+from datetime import date
 from pandas import ExcelWriter
 from os import listdir
 from os.path import isfile, join
@@ -14,25 +15,33 @@ import sys
 
 
 class InventoryRates():
-    def __init__(self, inv_type='cumulative', data_path = None, data_sheet = 0, date_col = None, issue_col = None,soh_col = None, window = 12, agg_cols = [],fac_cols=[],prod_cols=[]):
+    def __init__(self, inv_type='cumulative', data_path = None, data_sheet = 0, date_col = None, issue_col = None,soh_col = None, window = 12, agg_cols = [],fac_cols=[],prod_cols=[],del_freq = None,min_value = None,max_value = None):
         self.inv_type = inv_type
         self.data_path = data_path
         self.data_sheet = data_sheet
+        self.del_freq = del_freq
+        self.min_value = min_value
+        self.max_value = max_value
         print(">> reading in data")
         self.data_frame = pd.read_excel(self.data_path,sheet_name = self.data_sheet) if ('.xlsx' in self.data_path) else pd.read_csv(self.data_path)
         self.data_frame = self.data_frame.rename(columns=lambda x: x.strip())
+        self.controls = pd.read_excel('Expected ITs.xlsx', sheet_name="Sheet2")
+        # self.raw_data = self.data_frame
+        # print("Raw data columns :",self.raw_data.keys())
         print(">> data read in ")
         print(">> normalizing date types")
         self.date_col = date_col
         self.issue_col = issue_col
         self.soh_col = soh_col
+        # self.stockout_col = stockout_col
         self.window = window
         self.agg_cols = agg_cols
+        self.raw_data = pd.DataFrame()
         self.rates_data = pd.DataFrame()
         self.stock_data = pd.DataFrame()
         self.fac_cols = fac_cols
         self.prod_cols = prod_cols
-    
+
     @property
     def inv_type(self):
         return self._inv_type
@@ -88,6 +97,18 @@ class InventoryRates():
         if not (s in self.data_frame):
             raise ValueError(f"Column '{s}' is not in data")
         self._soh_col = s
+    
+    # @property
+    # def stockout_col(self):
+    #     return self._stockout_col
+
+    # @stockout_col.setter
+    # def stockout_col(self, s):
+    #     if not s:
+    #         raise ValueError(f"Stockout column not specified")
+    #     if not (s in self.data_frame):
+    #         raise ValueError(f"Column '{s}' is not in data")
+    #     self._stockout_col = s
 
     @property
     def agg_cols(self):
@@ -157,6 +178,7 @@ class InventoryRates():
             return df
 
         for col in self.agg_cols:
+            print('agg column',col)
             self.data_frame[col] = self.data_frame[col].map(str)
         print('>> aggregating monthly values')
         grouped = (self.data_frame.groupby(self.agg_cols+[self.date_col])
@@ -200,6 +222,73 @@ class InventoryRates():
         df['MOS'] = np.where(df['AMC']==0,0,df['Stock on Hand']/df['AMC'])
         df = df[[self.fac_cols[0],self.prod_cols[0],'Stock Status As Of','Stock on Hand','AMC','MOS','% Records Blank']]
         self.stock_data = df
+        
+    #@method
+    def subset_raw(self):
+    
+        df = self.data_frame[[self.fac_cols[0],self.fac_cols[1],self.prod_cols[0],self.date_col,self.issue_col,self.soh_col]]
+        df = df.sort_values(by=[self.fac_cols[0], self.prod_cols[0],self.date_col])
+        # for col in self.agg_cols:
+        #     print('agg column',col)
+        #     df[col] = df[col].map(str)
+        print('>> aggregating monthly values')
+        df['AMC'] = df.groupby(self.agg_cols)[self.issue_col].transform(lambda x:x.rolling(3).mean())
+
+        # df['AMC'] = df.groupby([self.fac_cols[0], self.prod_cols[0]])[self.issue_col].transform(lambda x:x.rolling(3).mean())
+        df['MOS'] = np.where(df['AMC']==0,0,df[self.soh_col]/df['AMC'])
+        self.raw_data = df
+
+    def set_controls(self):
+
+        self.data = self.controls
+        tot_cons = 12
+        for i,row in self.data.iterrows():
+            print(i,row['Month'])
+            if self.del_freq == 'Monthly':
+                if row['Month'] == 'jan':
+                    self.data.loc[i,'MOS Delivered (Beg. Month)'] = self.min_value + 1
+                    self.data.loc[i,'MOS (Beg. Month)'] = row['MOS Delivered (Beg. Month)']
+                    self.data.loc[i,'MOS (End Month)'] = row['MOS (Beg. Month)'] - 1
+
+                else: self.data.loc[i,'MOS Delivered (Beg. Month)'] = 1
+                self.data.loc[i,'MOS (Beg. Month)'] = self.data.loc[i-1,'MOS (End Month)'] + row['MOS Delivered (Beg. Month)']
+                self.data.loc[i,'MOS (End Month)'] = row['MOS (Beg. Month)'] - 1
+            elif self.del_freq == 'Bimonthly':
+                if row['Month'] == 'jan':
+                    print(self.min_value)
+                    self.data.loc[i,'MOS Delivered (Beg. Month)'] = int(self.min_value) + 2
+                    self.data.loc[i,'MOS (Beg. Month)'] = row['MOS Delivered (Beg. Month)']
+                    self.data.loc[i,'MOS (End Month)'] = row['MOS (Beg. Month)'] - 1
+                elif i%2==0:
+                    self.data.loc[i,'MOS Delivered (Beg. Month)'] = int(self.min_value) + int(1)
+                    self.data.loc[i,'MOS (Beg. Month)'] = self.data.loc[i-1,'MOS (End Month)'] + row['MOS Delivered (Beg. Month)']
+                    self.data.loc[i,'MOS (End Month)'] = row['MOS (Beg. Month)'] - int(1)
+
+                else: 
+                    self.data.loc[i,'MOS Delivered (Beg. Month)'] = int(0)
+                    self.data.loc[i,'MOS (Beg. Month)'] = self.data.loc[i-1,'MOS (End Month)'] + row['MOS Delivered (Beg. Month)']
+                    self.data.loc[i,'MOS (End Month)'] = row['MOS (Beg. Month)'] - int(1)
+            elif self.del_freq == 'Quarterly':
+                if row['Month'] == 'jan':
+                    self.data.loc[i,'MOS Delivered (Beg. Month)'] = self.min_value + 3
+                    self.data.loc[i,'MOS (Beg. Month)'] = row['MOS Delivered (Beg. Month)']
+                    self.data.loc[i,'MOS (End Month)'] = row['MOS (Beg. Month)'] - 1
+                elif i%3==0:
+                    self.data.loc[i,'MOS Delivered (Beg. Month)'] = self.min_value + 1
+                    self.data.loc[i,'MOS (Beg. Month)'] = self.data.loc[i-1,'MOS (End Month)'] + row['MOS Delivered (Beg. Month)']
+                    self.data.loc[i,'MOS (End Month)'] = row['MOS (Beg. Month)'] - 1
+
+                else: 
+                    row.loc[i,'MOS Delivered (Beg. Month)'] = 0
+                    self.data.loc[i,'MOS (Beg. Month)'] = self.data.loc[i-1,'MOS (End Month)'] + row['MOS Delivered (Beg. Month)']
+                    self.data.loc[i,'MOS (End Month)'] = row['MOS (Beg. Month)'] - 1
+
+        avg_stock = (sum(self.data['MOS (Beg. Month)']) + sum(self.data['MOS (End Month)']))/24
+        low = (tot_cons/avg_stock) - 1.5
+        high = (tot_cons/avg_stock) + 1.5
+        vhigh = 2*(tot_cons/avg_stock)
+        data = {'IT_low': low,'IT_high': high,'IT_vhigh': vhigh,'Min': self.min_value,'Max': self.max_value}
+        self.data = pd.DataFrame(data, index=[0])
 
     def transactional(self):
         if self.inv_type == 'transactional':
@@ -207,6 +296,7 @@ class InventoryRates():
 
     def format_columns(self):
         names = {self.fac_cols[0]:'Facility_id',
+             self.fac_cols[1]: 'Region_id',
              self.prod_cols[0]:'Product_id',
              self.date_col:'Date',
              self.issue_col+'_std':'Consumption_std',
@@ -218,6 +308,7 @@ class InventoryRates():
         self.rates_data = self.rates_data[list(names.values())+['Consumption_COV','Inventory_turn']]
         self.rates_data = self.rates_data[self.rates_data['Consumption_count']==self.window]
         self.stock_data = self.stock_data.rename(columns={self.fac_cols[0]:'Facility_id',self.prod_cols[0]:'Product_id'})
+        self.raw_data = self.raw_data.rename(columns={self.fac_cols[0]:'Facility_id',self.prod_cols[0]:'Product_id',self.date_col:'Date', self.issue_col:'Consumption',self.soh_col:'Stock on Hand'})
 
     def clean_text(self):
         for col1 in self.prod_cols:
@@ -226,11 +317,21 @@ class InventoryRates():
             self.data_frame[col2] = self.data_frame[col2].apply(lambda x: str(x).strip().upper())
 
     def create_ref_tables(self):
-        self.fac_table = self.data_frame[self.fac_cols].drop_duplicates(subset=self.fac_cols[0])
+        # self.fac_table = self.data_frame[self.fac_cols].drop_duplicates(subset=self.fac_cols[0])
+        self.fac_table = self.data_frame[self.fac_cols].drop_duplicates()
         self.prod_table = self.data_frame[self.prod_cols].drop_duplicates(subset=self.prod_cols[0]).dropna()
-        self.plot_data = self.rates_data[['Facility_id','Product_id']].drop_duplicates()
+        # self.plot_data = self.rates_data[['Facility_id','Product_id']].drop_duplicates()
+        self.plot_data = self.raw_data[['Facility_id','Product_id',self.fac_cols[1]]].drop_duplicates()
         self.dates_table = pd.DataFrame(sorted(list(self.rates_data['Date'].unique())),columns=['Date'])
+        self.control_table = self.data
+        # self.raw_data = self.raw_data.sort_values(by=self.date_col, ascending=False)
+        # m = pd.DatetimeIndex(self.raw_data[self.date_col]).max().month
+        # y = pd.DatetimeIndex(self.raw_data[self.date_col]).max().year
+        # print(m,y)
+        # self.raw_data[self.date_col]=pd.to_datetime(self.raw_data[self.date_col]).dt.date
+        # self.raw_data = self.raw_data[(self.raw_data[self.date_col]>date(y-1,m+1,1)) & (self.raw_data[self.date_col]<=date(y,m,1))]
 
+        
 
 
 

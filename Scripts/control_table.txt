@@ -1,0 +1,2 @@
+IT_low IT_high IT_vhigh Min Max
+4.5 7.5 12.0 1 3

@@ -485,3 +485,369 @@
 2023-02-20 16:23:31,400:INFO:Inventory rates object instantiated
 2023-02-20 16:24:52,155:INFO:Inventory rates calculated
 2023-02-20 16:26:47,924:INFO:Report created
+2023-02-21 13:22:09,902:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Malawi/MW_20-21/Malaria/Malawi_2020-21_Malaria.xlsx
+2023-02-22 15:55:12,951:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Liberia - Big Data TO3 activity/Examples of Data Extraction/Malaria Program_15_02_2023.xlsx
+2023-04-04 16:12:11,569:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Guinea - Analytics Dashboard/Dashboard/Guinea Dashboard Input.xlsx
+2023-04-04 16:14:36,518:DEBUG:Product columns: ['Product Name']
+2023-04-04 16:14:36,518:DEBUG:Facility columns: ['Facility Name']
+2023-04-04 16:14:36,518:INFO:Inventory rates object instantiated
+2023-04-04 16:19:43,744:INFO:Inventory rates calculated
+2023-04-04 16:26:20,231:INFO:Report created
+2023-04-04 16:44:01,475:INFO:File selected: C:/Users/7J4490897/Desktop/Guinea_2022.xlsx
+2023-04-04 16:44:30,740:DEBUG:Product columns: ['Product Name']
+2023-04-04 16:44:30,740:DEBUG:Facility columns: ['Facility Name']
+2023-04-04 16:44:30,740:INFO:Inventory rates object instantiated
+2023-04-04 16:44:35,955:INFO:Inventory rates calculated
+2023-04-04 16:44:40,630:INFO:Report created
+2023-04-04 16:47:19,413:INFO:File selected: C:/Users/7J4490897/Desktop/Guinea_2022.xlsx
+2023-04-04 16:47:47,885:DEBUG:Product columns: ['Product Name']
+2023-04-04 16:47:47,885:DEBUG:Facility columns: ['Facility Name']
+2023-04-04 16:47:47,885:INFO:Inventory rates object instantiated
+2023-04-04 16:47:52,810:INFO:Inventory rates calculated
+2023-04-04 16:47:55,119:INFO:Report created
+2023-04-04 17:01:05,029:DEBUG:Product columns: ['Product Name']
+2023-04-04 17:01:05,029:DEBUG:Facility columns: ['Facility Name']
+2023-04-04 17:01:05,029:INFO:Inventory rates object instantiated
+2023-04-04 17:01:09,920:INFO:Inventory rates calculated
+2023-04-04 17:01:22,517:DEBUG:Product columns: ['Product Name']
+2023-04-04 17:01:22,517:DEBUG:Facility columns: ['Facility Name']
+2023-04-04 17:01:22,517:INFO:Inventory rates object instantiated
+2023-04-04 17:01:27,353:INFO:Inventory rates calculated
+2023-04-04 17:01:32,914:INFO:Report created
+2023-04-05 15:28:57,397:INFO:File selected: C:/Users/7J4490897/Desktop/Guinea_2023.xlsx
+2023-04-05 15:31:01,204:DEBUG:Product columns: ['Product Name']
+2023-04-05 15:31:01,204:DEBUG:Facility columns: ['Facility Name']
+2023-04-05 15:31:01,204:INFO:Inventory rates object instantiated
+2023-04-05 15:35:54,208:INFO:Inventory rates calculated
+2023-04-05 15:35:56,884:INFO:Report created
+2023-04-05 16:23:56,643:DEBUG:Product columns: ['Product Name']
+2023-04-05 16:23:56,643:DEBUG:Facility columns: ['Facility Name']
+2023-04-05 16:23:56,643:INFO:Inventory rates object instantiated
+2023-04-05 16:29:08,268:INFO:Inventory rates calculated
+2023-04-05 16:44:16,102:DEBUG:Product columns: ['Product Name']
+2023-04-05 16:44:16,102:DEBUG:Facility columns: ['Facility Name']
+2023-04-05 16:44:16,102:INFO:Inventory rates object instantiated
+2023-04-05 16:49:27,988:INFO:Inventory rates calculated
+2023-04-05 16:49:33,294:INFO:Report created
+2023-04-11 10:44:09,454:INFO:File selected: C:/Users/7J4490897/Desktop/Guinea_21-23.xlsx
+2023-04-11 10:46:37,812:DEBUG:Product columns: ['Product Name']
+2023-04-11 10:46:37,812:DEBUG:Facility columns: ['Facility Name']
+2023-04-11 10:46:37,812:INFO:Inventory rates object instantiated
+2023-04-11 10:52:12,682:INFO:Inventory rates calculated
+2023-04-11 10:52:21,985:INFO:Report created
+2023-05-03 14:34:59,341:INFO:File selected: C:/Users/7J4490897/Desktop/Nigeria_MNCH21-23.xlsx
+2023-05-03 14:39:51,927:DEBUG:Product columns: ['product']
+2023-05-03 14:39:51,927:DEBUG:Facility columns: ['Facility Name']
+2023-05-03 14:39:51,928:INFO:Inventory rates object instantiated
+2023-05-03 14:43:54,327:INFO:Inventory rates calculated
+2023-05-03 14:47:08,849:INFO:Report created
+2023-05-17 16:09:07,562:INFO:File selected: C:/USAID_PSM/Countries/Malawi/MalawiTest.xlsx
+2023-06-29 08:19:06,428:INFO:File selected: C:/USAID_PSM/Countries/Malawi/MalawiTest.xlsx
+2024-02-19 15:23:21,241:INFO:File selected: C:/USAID_PSM/Countries & TO/Malawi/MalawiTest.xlsx
+2024-02-19 16:12:35,988:INFO:File selected: C:/USAID_PSM/Countries & TO/Malawi/MalawiTest.xlsx
+2024-02-19 16:13:42,599:DEBUG:Product columns: ['Product Name']
+2024-02-19 16:13:42,599:DEBUG:Facility columns: ['Facility Name']
+2024-02-19 16:13:42,599:INFO:Inventory rates object instantiated
+2024-02-19 16:13:43,343:INFO:Inventory rates calculated
+2024-02-19 16:13:48,285:INFO:Report created
+2024-03-13 14:35:43,415:INFO:File selected: C:/Users/7J4490897/Box/PSM Analytics Projects/FY23_Country_Inventory_Turnover/1_Haiti/Ht_WMS_21-22/Ht_WMS_21-22.csv
+2024-03-14 11:51:04,913:INFO:File selected: C:/Users/7J4490897/Desktop/HIV_data.csv
+2024-03-14 11:52:57,104:DEBUG:Product columns: ['Product Name']
+2024-03-14 11:52:57,104:DEBUG:Facility columns: ['Facility Name']
+2024-03-14 11:52:57,104:INFO:Inventory rates object instantiated
+2024-03-14 11:56:41,250:INFO:Inventory rates calculated
+2024-03-14 12:48:23,913:INFO:File selected: C:/Users/7J4490897/Desktop/HIV_data.csv
+2024-03-14 12:49:36,722:DEBUG:Product columns: ['Product Name']
+2024-03-14 12:49:36,722:DEBUG:Facility columns: ['Facility Name']
+2024-03-14 12:49:36,723:INFO:Inventory rates object instantiated
+2024-03-14 12:54:26,130:INFO:Inventory rates calculated
+2024-04-29 16:04:10,169:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-29 16:06:28,598:DEBUG:Product columns: ['Product Name']
+2024-04-29 16:06:28,598:DEBUG:Facility columns: ['Facility Name']
+2024-04-29 16:06:28,610:INFO:Inventory rates object instantiated
+2024-04-29 16:08:01,260:INFO:Inventory rates calculated
+2024-04-29 16:51:28,204:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-29 16:51:49,791:DEBUG:Product columns: ['Product Name']
+2024-04-29 16:51:49,791:DEBUG:Facility columns: ['Facility Name']
+2024-04-29 16:51:49,791:INFO:Inventory rates object instantiated
+2024-04-29 16:53:23,286:INFO:Inventory rates calculated
+2024-04-30 11:10:34,038:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 11:11:18,177:DEBUG:Product columns: ['Product Name']
+2024-04-30 11:11:18,177:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 11:11:18,177:INFO:Inventory rates object instantiated
+2024-04-30 11:12:59,123:INFO:Inventory rates calculated
+2024-04-30 11:34:25,622:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 11:34:55,550:DEBUG:Product columns: ['Product Name']
+2024-04-30 11:34:55,550:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 11:34:55,550:INFO:Inventory rates object instantiated
+2024-04-30 11:36:37,768:INFO:Inventory rates calculated
+2024-04-30 15:43:36,036:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 15:44:07,060:DEBUG:Product columns: ['Product Name']
+2024-04-30 15:44:07,060:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 15:44:07,060:INFO:Inventory rates object instantiated
+2024-04-30 15:47:11,272:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 15:47:37,578:DEBUG:Product columns: ['Product Name']
+2024-04-30 15:47:37,578:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 15:47:37,578:INFO:Inventory rates object instantiated
+2024-04-30 16:16:44,970:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 16:17:06,044:DEBUG:Product columns: ['Product Name']
+2024-04-30 16:17:06,044:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 16:17:06,044:INFO:Inventory rates object instantiated
+2024-04-30 16:18:41,177:INFO:Inventory rates calculated
+2024-04-30 16:31:17,502:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 16:31:37,815:DEBUG:Product columns: ['Product Name']
+2024-04-30 16:31:37,815:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 16:31:37,815:INFO:Inventory rates object instantiated
+2024-04-30 16:39:16,443:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 16:39:35,763:DEBUG:Product columns: ['Product Name']
+2024-04-30 16:39:35,779:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 16:39:35,779:INFO:Inventory rates object instantiated
+2024-04-30 16:47:32,279:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 16:47:52,321:DEBUG:Product columns: ['Product Name']
+2024-04-30 16:47:52,321:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 16:47:52,321:INFO:Inventory rates object instantiated
+2024-04-30 16:51:29,368:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 16:51:48,827:DEBUG:Product columns: ['Product Name']
+2024-04-30 16:51:48,827:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 16:51:48,827:INFO:Inventory rates object instantiated
+2024-04-30 16:54:22,029:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 16:54:45,514:DEBUG:Product columns: ['Product Name']
+2024-04-30 16:54:45,514:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 16:54:45,514:INFO:Inventory rates object instantiated
+2024-04-30 17:00:00,104:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-04-30 17:00:38,285:DEBUG:Product columns: ['Product Name']
+2024-04-30 17:00:38,285:DEBUG:Facility columns: ['Facility Name']
+2024-04-30 17:00:38,285:INFO:Inventory rates object instantiated
+2024-04-30 17:02:12,964:INFO:Inventory rates calculated
+2024-05-01 16:37:21,249:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-01 16:37:47,688:DEBUG:Product columns: ['Product Name']
+2024-05-01 16:37:47,688:DEBUG:Facility columns: ['Facility Name']
+2024-05-01 16:37:47,688:INFO:Inventory rates object instantiated
+2024-05-01 16:49:58,283:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-01 16:51:24,129:DEBUG:Product columns: ['Product Name']
+2024-05-01 16:51:24,129:DEBUG:Facility columns: ['Facility Name']
+2024-05-01 16:51:24,129:INFO:Inventory rates object instantiated
+2024-05-01 17:02:47,512:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-01 17:03:25,691:DEBUG:Product columns: ['Product Name']
+2024-05-01 17:03:25,691:DEBUG:Facility columns: ['Facility Name']
+2024-05-01 17:03:25,691:INFO:Inventory rates object instantiated
+2024-05-01 17:05:01,611:INFO:Inventory rates calculated
+2024-05-01 17:23:10,294:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-01 17:23:46,629:DEBUG:Product columns: ['Product Name']
+2024-05-01 17:23:46,629:DEBUG:Facility columns: ['Facility Name']
+2024-05-01 17:23:46,629:INFO:Inventory rates object instantiated
+2024-05-01 17:25:23,222:INFO:Inventory rates calculated
+2024-05-02 17:05:23,063:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-02 17:06:05,235:DEBUG:Product columns: ['Product Name']
+2024-05-02 17:06:05,235:DEBUG:Facility columns: ['Facility Name']
+2024-05-02 17:06:05,235:INFO:Inventory rates object instantiated
+2024-05-02 17:07:43,282:INFO:Inventory rates calculated
+2024-05-03 13:24:48,874:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-03 13:30:54,615:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-03 13:34:10,915:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-03 13:36:20,149:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-06 16:52:30,544:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-06 16:52:57,897:DEBUG:Product columns: ['Product Name']
+2024-05-06 16:52:57,897:DEBUG:Facility columns: ['Facility Name']
+2024-05-06 16:52:57,897:INFO:Inventory rates object instantiated
+2024-05-06 16:57:29,002:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-06 16:57:57,751:DEBUG:Product columns: ['Product Name']
+2024-05-06 16:57:57,751:DEBUG:Facility columns: ['Facility Name']
+2024-05-06 16:57:57,751:INFO:Inventory rates object instantiated
+2024-05-06 16:59:35,936:INFO:Inventory rates calculated
+2024-05-06 17:25:43,934:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-06 17:26:08,630:DEBUG:Product columns: ['Product Name']
+2024-05-06 17:26:08,630:DEBUG:Facility columns: ['Facility Name']
+2024-05-06 17:26:08,630:INFO:Inventory rates object instantiated
+2024-05-08 14:35:43,675:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-08 14:36:31,811:DEBUG:Product columns: ['Product Name']
+2024-05-08 14:36:31,811:DEBUG:Facility columns: ['Facility Name']
+2024-05-08 14:36:31,811:INFO:Inventory rates object instantiated
+2024-05-08 14:39:15,955:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-08 14:40:30,211:DEBUG:Product columns: ['Product Name']
+2024-05-08 14:40:30,211:DEBUG:Facility columns: ['Facility Name']
+2024-05-08 14:40:30,211:INFO:Inventory rates object instantiated
+2024-05-08 14:42:11,201:INFO:Inventory rates calculated
+2024-05-13 14:39:47,556:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-13 14:40:29,933:DEBUG:Product columns: ['Product Name']
+2024-05-13 14:40:29,933:DEBUG:Facility columns: ['Facility Name']
+2024-05-13 14:40:29,933:INFO:Inventory rates object instantiated
+2024-05-13 14:44:12,711:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-13 14:44:41,443:DEBUG:Product columns: ['Product Name']
+2024-05-13 14:44:41,443:DEBUG:Facility columns: ['Facility Name']
+2024-05-13 14:44:41,443:INFO:Inventory rates object instantiated
+2024-05-13 14:46:22,351:INFO:Inventory rates calculated
+2024-05-14 16:32:13,027:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-14 16:33:17,693:DEBUG:Product columns: ['Product Name']
+2024-05-14 16:33:17,693:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-05-14 16:33:17,693:INFO:Inventory rates object instantiated
+2024-05-14 16:35:05,964:INFO:Inventory rates calculated
+2024-05-14 16:55:33,775:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-14 16:56:25,194:DEBUG:Product columns: ['Product Name']
+2024-05-14 16:56:25,194:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-05-14 16:56:25,194:INFO:Inventory rates object instantiated
+2024-05-14 16:58:05,115:INFO:Inventory rates calculated
+2024-05-14 17:16:31,710:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-14 17:17:05,713:DEBUG:Product columns: ['Product Name']
+2024-05-14 17:17:05,713:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-05-14 17:17:05,713:INFO:Inventory rates object instantiated
+2024-05-14 17:19:25,151:INFO:Inventory rates calculated
+2024-05-14 17:24:35,564:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-05-14 17:25:39,964:DEBUG:Product columns: ['Product Name']
+2024-05-14 17:25:39,964:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-05-14 17:25:39,964:INFO:Inventory rates object instantiated
+2024-05-14 17:27:20,412:INFO:Inventory rates calculated
+2024-05-21 13:21:34,808:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-02 13:25:39,968:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-02 13:26:23,715:DEBUG:Product columns: ['Product Name']
+2024-07-02 13:26:23,715:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-02 13:26:23,715:INFO:Inventory rates object instantiated
+2024-07-03 12:28:01,834:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-03 12:28:58,000:DEBUG:Product columns: ['Product Name']
+2024-07-03 12:28:58,000:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-03 12:28:58,000:INFO:Inventory rates object instantiated
+2024-07-03 12:40:30,816:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-03 12:43:15,257:DEBUG:Product columns: ['Product Name']
+2024-07-03 12:43:15,257:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-03 12:43:15,257:INFO:Inventory rates object instantiated
+2024-07-03 12:44:49,905:INFO:Inventory rates calculated
+2024-07-03 15:56:40,869:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-03 15:57:17,013:DEBUG:Product columns: ['Product Name']
+2024-07-03 15:57:17,013:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-03 15:57:17,013:INFO:Inventory rates object instantiated
+2024-07-08 18:14:31,197:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/LMIS Datasets/Monthly LMIS FY 2024/End May 2024 LMIS Dataset.xlsx
+2024-07-08 18:20:18,220:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/LMIS Datasets/Monthly LMIS FY 2024/End May 2024 LMIS Dataset.xlsx
+2024-07-08 18:25:29,632:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/LMIS Datasets/Monthly LMIS FY 2024/End May 2024 LMIS Dataset.xlsx
+2024-07-09 13:05:17,701:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/LMIS Datasets/Monthly LMIS FY 2024/End May 2024 LMIS Dataset.xlsx
+2024-07-09 14:16:17,968:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/LMIS Datasets/Monthly LMIS FY 2024/End May 2024 LMIS Dataset.xlsx
+2024-07-09 14:29:24,803:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/LMIS Datasets/Monthly LMIS FY 2024/End May 2024 LMIS Dataset.xlsx
+2024-07-10 13:07:52,850:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-10 13:24:45,600:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-10 13:25:32,112:DEBUG:Product columns: ['Product Name']
+2024-07-10 13:25:32,112:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-10 13:25:32,112:INFO:Inventory rates object instantiated
+2024-07-10 13:42:21,356:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-10 13:43:43,634:DEBUG:Product columns: ['Product Name']
+2024-07-10 13:43:43,634:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-10 13:43:43,634:INFO:Inventory rates object instantiated
+2024-07-10 14:07:10,477:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-10 14:07:42,849:DEBUG:Product columns: ['Product Name']
+2024-07-10 14:07:42,849:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-10 14:07:42,849:INFO:Inventory rates object instantiated
+2024-07-10 14:12:22,290:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-10 14:12:54,383:DEBUG:Product columns: ['Product Name']
+2024-07-10 14:12:54,383:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-10 14:12:54,383:INFO:Inventory rates object instantiated
+2024-07-10 14:28:20,757:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-10 14:28:55,548:DEBUG:Product columns: ['Product Name']
+2024-07-10 14:28:55,548:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-10 14:28:55,548:INFO:Inventory rates object instantiated
+2024-07-10 14:30:35,605:INFO:Inventory rates calculated
+2024-07-11 10:34:35,619:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-11 10:39:10,165:DEBUG:Product columns: ['Product Name']
+2024-07-11 10:39:10,165:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-11 10:39:10,165:INFO:Inventory rates object instantiated
+2024-07-11 11:00:11,342:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-11 11:00:51,801:DEBUG:Product columns: ['Product Name']
+2024-07-11 11:00:51,801:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-11 11:00:51,801:INFO:Inventory rates object instantiated
+2024-07-11 12:56:07,791:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-11 12:56:43,324:DEBUG:Product columns: ['Product Name']
+2024-07-11 12:56:43,324:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-11 12:56:43,324:INFO:Inventory rates object instantiated
+2024-07-11 13:02:01,150:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-11 13:02:31,954:DEBUG:Product columns: ['Product Name']
+2024-07-11 13:02:31,954:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-11 13:02:31,954:INFO:Inventory rates object instantiated
+2024-07-11 13:19:38,084:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-11 13:22:07,715:DEBUG:Product columns: ['Product Name']
+2024-07-11 13:22:07,715:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-11 13:22:07,715:INFO:Inventory rates object instantiated
+2024-07-11 13:29:51,078:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-11 13:30:18,682:DEBUG:Product columns: ['Product Name']
+2024-07-11 13:30:18,682:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-11 13:30:18,682:INFO:Inventory rates object instantiated
+2024-07-11 13:51:55,229:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-11 13:52:31,655:DEBUG:Product columns: ['Product Name']
+2024-07-11 13:52:31,655:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-07-11 13:52:31,655:INFO:Inventory rates object instantiated
+2024-07-16 16:23:08,756:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-26 11:02:56,925:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-26 11:11:11,214:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-07-26 11:11:51,470:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 09:36:43,779:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 09:37:22,449:DEBUG:Product columns: ['Product Name']
+2024-08-05 09:37:22,449:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 09:37:22,449:INFO:Inventory rates object instantiated
+2024-08-05 09:50:07,127:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 09:50:39,628:DEBUG:Product columns: ['Product Name']
+2024-08-05 09:50:39,628:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 09:50:39,628:INFO:Inventory rates object instantiated
+2024-08-05 09:56:07,858:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 09:56:48,105:DEBUG:Product columns: ['Product Name']
+2024-08-05 09:56:48,105:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 09:56:48,105:INFO:Inventory rates object instantiated
+2024-08-05 10:12:41,187:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 10:13:12,159:DEBUG:Product columns: ['Product Name']
+2024-08-05 10:13:12,159:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 10:13:12,160:INFO:Inventory rates object instantiated
+2024-08-05 10:16:29,671:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 10:17:33,544:DEBUG:Product columns: ['Product Name']
+2024-08-05 10:17:33,544:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 10:17:33,544:INFO:Inventory rates object instantiated
+2024-08-05 10:54:31,771:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 10:55:17,589:DEBUG:Product columns: ['Product Name']
+2024-08-05 10:55:17,589:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 10:55:17,589:INFO:Inventory rates object instantiated
+2024-08-05 11:02:04,027:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 11:02:35,011:DEBUG:Product columns: ['Product Name']
+2024-08-05 11:02:35,011:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 11:02:35,011:INFO:Inventory rates object instantiated
+2024-08-05 11:05:58,972:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 11:06:27,033:DEBUG:Product columns: ['Product Name']
+2024-08-05 11:06:27,033:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 11:06:27,033:INFO:Inventory rates object instantiated
+2024-08-05 13:03:28,013:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 13:04:45,312:DEBUG:Product columns: ['Product Name']
+2024-08-05 13:04:45,312:DEBUG:Facility columns: ['Facility Name', 'District Name', 'Managed By']
+2024-08-05 13:04:45,312:INFO:Inventory rates object instantiated
+2024-08-05 13:11:17,523:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 13:35:18,874:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 13:36:00,568:DEBUG:Product columns: ['Product Name']
+2024-08-05 13:36:00,568:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 13:36:00,568:INFO:Inventory rates object instantiated
+2024-08-05 13:39:14,328:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-05 13:39:41,250:DEBUG:Product columns: ['Product Name']
+2024-08-05 13:39:41,250:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-05 13:39:41,250:INFO:Inventory rates object instantiated
+2024-08-05 13:41:16,877:INFO:Inventory rates calculated
+2024-08-19 08:24:10,747:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-19 08:24:53,546:DEBUG:Product columns: ['Product Name', 'Managed By']
+2024-08-19 08:24:53,546:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-19 08:24:53,546:INFO:Inventory rates object instantiated
+2024-08-19 08:30:21,653:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-19 08:32:06,446:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-19 08:32:49,079:DEBUG:Product columns: ['Product Name']
+2024-08-19 08:32:49,079:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-19 08:32:49,079:INFO:Inventory rates object instantiated
+2024-08-19 08:34:35,127:INFO:Inventory rates calculated
+2024-08-19 08:36:06,101:INFO:Report created
+2024-08-19 08:42:57,249:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-08-19 08:43:24,381:DEBUG:Product columns: ['Product Name']
+2024-08-19 08:43:24,381:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-08-19 08:43:24,381:INFO:Inventory rates object instantiated
+2024-08-19 08:45:10,187:INFO:Inventory rates calculated
+2024-08-19 08:45:15,441:INFO:Report created
+2024-08-22 12:44:30,218:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-09-17 14:53:54,310:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-09-17 14:54:36,393:DEBUG:Product columns: ['Product Name']
+2024-09-17 14:54:36,393:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-09-17 14:54:36,393:INFO:Inventory rates object instantiated
+2024-09-17 14:56:13,862:INFO:Inventory rates calculated
+2024-09-17 14:57:19,645:INFO:Report created
+2024-09-17 14:59:30,869:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-09-17 14:59:59,088:DEBUG:Product columns: ['Product Name']
+2024-09-17 14:59:59,088:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-09-17 14:59:59,088:INFO:Inventory rates object instantiated
+2024-09-17 15:01:30,161:INFO:Inventory rates calculated
+2024-09-17 15:01:55,038:INFO:Report created
