@@ -18,8 +18,8 @@ logging.basicConfig(filename=os.getcwd()+'/../Log/inventory_analysis.log',level=
 class IAGui:
 	def __init__(self, window):
 		self.config = IntVar(value=0)
-		Radiobutton(window,text="Use saved settings",variable=self.config,value=1).grid(row=1,column=2,sticky=W)
-		Radiobutton(window,text="New configurations",variable=self.config,value=0).grid(row=1,column=3,sticky=W)
+		# Radiobutton(window,text="Use saved settings",variable=self.config,value=1, state=DISABLED).grid(row=1,column=2,sticky=W)
+		# Radiobutton(window,text="New configurations",variable=self.config,value=0, state=DISABLED).grid(row=1,column=3,sticky=W)
 
 		self.label_file_explorer = Label(window,text = "Select an inventory data file to begin",fg = "blue")
 		self.label_file_explorer.grid(row=2,column=2)
@@ -122,11 +122,11 @@ class IAGui:
 			delfreq.grid(row=5, column=1, sticky=NE)
 			dataTypeLabel = Label(window, text="Data Type")
 			dataTypeLabel.grid(row=6, column=1, sticky=NE)
-			Label(window, text="Product").grid(row=7, column=1,sticky=E)
+			Label(window, text="Product Name Field").grid(row=7, column=1,sticky=E)
 			Label(window, text="(Additional Product Info)").grid(row=8,column=1,sticky=E)
 			Label(window, text="(Additional Product Info)").grid(row=9,column=1,sticky=NE)
-			Label(window, text="Facility").grid(row=10, column=1, sticky=E)
-			Label(window, text="Region").grid(row=11,column=1,sticky=E)
+			Label(window, text="Facility Name Field").grid(row=10, column=1, sticky=E)
+			Label(window, text="Region Name Field").grid(row=11,column=1,sticky=E)
 			Label(window, text="Select State/District/Province").grid(row=11,column=3,sticky=E)
 			Label(window, text="(Additional Facility Info)").grid(row=12,column=1,sticky=NE)
 			Label(window, text="Date Field").grid(row=13, column=1, sticky=E)
@@ -165,12 +165,12 @@ class IAGui:
 				  justify=LEFT).grid(row=13,column=2, padx=(0,5))
 			ttk.Combobox(window, textvariable=self.issue_col, values=self.column_names,
 				  justify=LEFT).grid(row=14,column=2, padx=(0,5))
-			Radiobutton(window,text="Blank fields = 0",variable=self.issue_0,value=1).grid(row=15,column=3,sticky=W,padx=(0,5))
-			Radiobutton(window,text="Blank fields are missing",variable=self.issue_0,value=0).grid(row=15,column=4,sticky=W,padx=(0,5))
+			Radiobutton(window,text="Blank fields = 0",variable=self.issue_0,value=1).grid(row=14,column=3,sticky=W,padx=(0,5))
+			Radiobutton(window,text="Blank fields are missing",variable=self.issue_0,value=0).grid(row=14,column=4,sticky=W,padx=(0,5))
 			ttk.Combobox(window, textvariable=self.soh_col, values=self.column_names,
 				  justify=LEFT).grid(row=15,column=2, padx=(0,5))
-			Radiobutton(window,text="Blank fields = 0",variable=self.soh_0,value=1).grid(row=16,column=3,sticky=W,padx=(0,5))
-			Radiobutton(window,text="Blank fields are missing",variable=self.soh_0,value=0).grid(row=16,column=4,sticky=W,padx=(0,5))
+			Radiobutton(window,text="Blank fields = 0",variable=self.soh_0,value=1).grid(row=15,column=3,sticky=W,padx=(0,5))
+			Radiobutton(window,text="Blank fields are missing",variable=self.soh_0,value=0).grid(row=15,column=4,sticky=W,padx=(0,5))
 			# ttk.Combobox(window, textvariable=self.stockout_col, values=self.column_names,
 				#   justify=LEFT).grid(row=14,column=2, padx=(0,5),pady=(0,50))
 			# Radiobutton(window,text="Blank fields = 0",variable=self.stockout_0,value=1).grid(row=14,column=3,sticky=W,padx=(0,5),pady=(0,50))
@@ -263,6 +263,9 @@ class IAGui:
 	def createConfig(self):
 		config = configparser.ConfigParser()
 		config.add_section('column headers')
+		config.set('column headers','data_type', self.min_value.get())
+		config.set('column headers','data_type', self.max_value.get())
+		config.set('column headers','data_type', self.del_freq.get())
 		config.set('column headers','data_type', self.data_type.get())
 		config.set('column headers','product',self.product.get())
 		config.set('column headers','product1',self.product1.get())

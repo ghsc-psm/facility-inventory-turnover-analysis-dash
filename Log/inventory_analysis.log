@@ -851,3 +851,16 @@
 2024-09-17 14:59:59,088:INFO:Inventory rates object instantiated
 2024-09-17 15:01:30,161:INFO:Inventory rates calculated
 2024-09-17 15:01:55,038:INFO:Report created
+2024-09-18 10:31:48,686:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-09-18 10:50:10,146:DEBUG:Product columns: ['Product Name']
+2024-09-18 10:50:10,146:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-09-18 10:50:10,146:INFO:Inventory rates object instantiated
+2024-09-18 10:51:44,160:INFO:Inventory rates calculated
+2024-09-18 12:02:56,745:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-09-18 12:20:13,493:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-09-18 12:25:50,063:INFO:File selected: C:/Users/7J4490897/Chemonics/PSM Malawi - Data Refactoring Activity/FP_data.csv
+2024-09-18 12:27:38,170:DEBUG:Product columns: ['Product Name']
+2024-09-18 12:27:38,170:DEBUG:Facility columns: ['Facility Name', 'District Name']
+2024-09-18 12:27:38,170:INFO:Inventory rates object instantiated
+2024-09-18 12:29:11,541:INFO:Inventory rates calculated
+2024-09-18 12:37:09,161:INFO:Report created
