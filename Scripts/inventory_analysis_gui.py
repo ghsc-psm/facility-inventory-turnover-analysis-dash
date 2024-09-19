@@ -256,7 +256,7 @@ class IAGui:
 		if platform.system() == "Darwin":  # macOS
 			os.system(f"open '{filepath}'")
 		elif platform.system() == "Windows":
-			os.system("start excel.exe {filepath}")
+			os.system(f"start excel.exe {filepath}")
 		logging.info('Report created')
 
 	def openSettings(self):
