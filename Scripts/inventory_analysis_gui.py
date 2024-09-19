@@ -3,6 +3,7 @@ from tkinter import ttk
 from tkinter import filedialog
 import pandas as pd 
 import os
+import platform
 from inventory_analysis import InventoryRates
 import configparser
 from os import path
@@ -251,8 +252,11 @@ class IAGui:
 		config_button.grid(row = 23,column=2)
 
 	def openReport(self):
-		
-		os.system("start excel.exe ..\Inventory_Turn_Analysis(version2).xlsm")
+		if platform.system() == "Darwin":  # macOS
+			os.system(f"open '{r'Inventory_Turn_Analysis(version2).xlsm'}'")
+		elif platform.system() == "Windows":
+			os.system("start excel.exe ..\Inventory_Turn_Analysis(version2).xlsm")
+		# os.system("start excel.exe ..\Inventory_Turn_Analysis(version2).xlsm")
 		logging.info('Report created')
 
 	def openSettings(self):
