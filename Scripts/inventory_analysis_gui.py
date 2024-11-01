@@ -258,6 +258,7 @@ class IAGui:
 			os.system("start excel.exe ..\Inventory_Turn_Analysis(version2).xlsm")
 		# os.system("start excel.exe ..\Inventory_Turn_Analysis(version2).xlsm")
 		logging.info('Report created')
+		window.destroy()
 
 	def openSettings(self):
 		# Settings panel where user can set directory for output & other settings
