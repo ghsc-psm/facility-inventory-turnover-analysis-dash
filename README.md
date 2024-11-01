@@ -1,4 +1,4 @@
-# to3-inventory-an
+# to3-inventory-analysis
 
 ## Instructions
 Detailed usage instructions can be found in the User Guide
