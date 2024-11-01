@@ -252,11 +252,11 @@ class IAGui:
 		config_button.grid(row = 23,column=2)
 
 	def openReport(self):
+		filepath = "../Inventory_Turn_Analysis_v2.xlsm"
 		if platform.system() == "Darwin":  # macOS
-			os.system(f"open '{r'Inventory_Turn_Analysis(version2).xlsm'}'")
+			os.system(f"open '{filepath}'")
 		elif platform.system() == "Windows":
-			os.system("start excel.exe ..\Inventory_Turn_Analysis(version2).xlsm")
-		# os.system("start excel.exe ..\Inventory_Turn_Analysis(version2).xlsm")
+			os.system(f"start excel.exe {filepath}")
 		logging.info('Report created')
 		window.destroy()
 
